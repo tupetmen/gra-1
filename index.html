@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Moduł 8 podejście 2</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<button id="new-game">Zacznij nową grę!</button>
+<div id="error-message">
+   <span id="test-message"></span>
+</div>
+<div id="game" class="hide">
+  <div id="maxWinnerGames">
+    <span id="test-games"></span>
+    <p class="scoreboard-row" id="maxWin">
+    Aby wygrać rozgrywkę musisz pokonać mnie 
+    <span id="max-games"></span> razy!</p>
+  </div>
+  <div id="buttons" class="container">
+    <button class="box" id="button1">
+      Papier
+    </button>
+    <button class="box" id="button2">
+      Kamień
+    </button>
+    <button class="box" id="button3">
+      Nożyce
+    </button>
+  </div>
+  <div id="output" class="choiceBox clear">
+    <div id="human" class="choiceHuman">
+    </div>
+    <div id="computer" class="choiceComputer">
+    </div>
+    <div id="score">
+    </div>
+  </div>
+  <div id="result" class="choiceBox">
+    <div class= "choiceHuman">
+      <p class="scoreboard-row " id="playerWins">
+        User wygrał: 
+        <strong><span id="wins">0</span></strong>
+      </p>
+    </div> 
+    <div class= "choiceHuman">
+       <p class="scoreboard-row choiceHuman" id="playerLosses">
+        Komputer wygrał:
+        <strong><span id="losses">0</span></strong>
+       </p>
+    </div> 
+  </div>
+</div>
+<div id="game-over" class="end-screen hide">
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

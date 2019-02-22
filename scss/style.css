@@ -1,0 +1,81 @@
+body {
+	padding: 10px;
+	text-align: center;
+}
+
+#error-message {
+  font-size: 30px;
+  color: red;
+  font-weight:bold;
+}
+
+.hide {
+display:none;  
+}
+
+#maxWinnerGames {
+  font-size: 30px;
+}
+
+#max-games {
+  font-weight:bold;
+} 
+
+button {
+	display: inline-block;
+  padding: 11px 50px;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #FF0000;
+  border: 2px solid #FF0000;
+  border-radius: 4px;
+  transition: color .3s, background-color .3s;
+  cursor: pointer;
+  outline: 0!important;
+  text-decoration: none;
+  touch-action: manipulation;
+  user-select: none;
+  &:hover, &:active {
+    color: #02ac46;
+	  background-color: #fff;
+	}
+}
+
+#output {
+  height: auto;
+}
+
+#score {
+  width: 700px;
+  display: table;
+  font-weight:bold;
+}
+
+.choiceBox {
+  margin: auto;
+  width: 700px;
+  font-size: 30px;
+}
+
+.clear:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.choiceHuman, .choiceComputer {
+  width: 350px;
+  float: left;
+}
+
+.end-screen {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight:bold;
+}
