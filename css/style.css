@@ -1,81 +1,25 @@
-body {
-	padding: 10px;
-	text-align: center;
-}
+body { padding: 10px; text-align: center; }
 
-#error-message {
-  font-size: 30px;
-  color: red;
-  font-weight:bold;
-}
+#error-message { font-size: 30px; color: red; font-weight: bold; }
 
-.hide {
-display:none;  
-}
+.hide { display: none; }
 
-#maxWinnerGames {
-  font-size: 30px;
-}
+#maxWinnerGames { font-size: 30px; }
 
-#max-games {
-  font-weight:bold;
-} 
+#max-games { font-weight: bold; }
 
-button {
-	display: inline-block;
-  padding: 11px 50px;
-  max-width: 100%;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  color: #fff;
-  background-color: #FF0000;
-  border: 2px solid #FF0000;
-  border-radius: 4px;
-  transition: color .3s, background-color .3s;
-  cursor: pointer;
-  outline: 0!important;
-  text-decoration: none;
-  touch-action: manipulation;
-  user-select: none;
-  &:hover, &:active {
-    color: #02ac46;
-	  background-color: #fff;
-	}
-}
+button { display: inline-block; padding: 11px 50px; max-width: 100%; font-size: 16px; font-weight: 600; text-align: center; white-space: nowrap; vertical-align: middle; color: #fff; background-color: #FF0000; border: 2px solid #FF0000; border-radius: 4px; transition: color .3s, background-color .3s; cursor: pointer; outline: 0 !important; text-decoration: none; -ms-touch-action: manipulation; touch-action: manipulation; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
-#output {
-  height: auto;
-}
+button:hover, button:active { color: #02ac46; background-color: #fff; }
 
-#score {
-  width: 700px;
-  display: table;
-  font-weight:bold;
-}
+#output { height: auto; }
 
-.choiceBox {
-  margin: auto;
-  width: 700px;
-  font-size: 30px;
-}
+#score { width: 700px; display: table; font-weight: bold; }
 
-.clear:after {
-  clear: both;
-  display: table;
-  content: "";
-}
+.choiceBox { margin: auto; width: 700px; font-size: 30px; }
 
-.choiceHuman, .choiceComputer {
-  width: 350px;
-  float: left;
-}
+.clear:after { clear: both; display: table; content: ""; }
 
-.end-screen {
-  margin: 0 auto;
-  padding-top: 30px;
-  font-size: 50px;
-  font-weight:bold;
-}
+.choiceHuman, .choiceComputer { width: 350px; float: left; }
+
+.end-screen { margin: 0 auto; padding-top: 30px; font-size: 50px; font-weight: bold; }
