@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Moduł 8 podejście 2</title>
+  <title>Moduł 13 podejście 4</title>
   
   
   
@@ -27,13 +27,13 @@
     <span id="max-games"></span> razy!</p>
   </div>
   <div id="buttons" class="container">
-    <button class="box" id="button1">
+    <button class="box player-move" id="button1" data-move="paper">
       Papier
     </button>
-    <button class="box" id="button2">
+    <button class="box player-move" id="button2" data-move="stone">
       Kamień
     </button>
-    <button class="box" id="button3">
+    <button class="box player-move" id="button3" data-move="scissors">
       Nożyce
     </button>
   </div>
@@ -60,7 +60,14 @@
     </div> 
   </div>
 </div>
-<div id="game-over" class="end-screen hide">
+
+</div>
+<div class="overlay" id="modal-overlay">
+	<div class="modal">
+		<a href="#" class="close">x</a>
+		<header id="game-over"></header>
+		<div class="content game-over"></div>
+	</div>
 </div>
   
   
