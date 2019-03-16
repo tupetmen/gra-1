@@ -22,14 +22,7 @@ var params =
     {
       playerWin: 0,
       aiWin: 0,
-      round: 0,
-      progress: {   
-        runda: 0,
-        ruchGracza: 0,
-        ruchKomputera: 0, 
-        wynikRundy: 0, 
-        wynikGry: 0
-      }
+      round: 0
     };
 // console.log(scoreHelp);
 //nasłuch na kliknięcie
